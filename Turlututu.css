@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    height: 10vh;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    align-items: center;
+    
+}
+ul {
+    margin-left: 20%;
+}
+li {
+    display: inline;
+    color: rgb(251, 251, 251);
+    list-style-type: none;
+    font-size: 1.25rem;
+    padding: 20px;
+    
+}
+a {
+    text-decoration: none;
+}
+.container {
+    height: 60vh;
+    background-color: rgb(30, 147, 204);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+.container button {
+
+    background-color: rgb(233, 144, 2);
+    border: solid 2px white;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.container h1 {
+    color: white;
+}
+body div:nth-child(3) {
+    color: black;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    
+}
+body div:nth-child(3) p {
+    font-size: 1.5rem;
+    margin-left: 20vw;
+}
+
+.information {
+    height: 50vh;
+    background-color:rgb(30, 147, 204) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.information div {
+    width: 40%;
+    height: 50%;
+    color: white;
+}
+body div:nth-child(5) {
+    background-color: rgb(252, 252, 252);
+    color: black;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+body div:nth-child(5) p {
+    font-size: 1.5rem;
+    margin-left: 20vw;
+}
+body div:nth-child(6) {
+    background-color: rgb(238, 238, 238);
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+body div:nth-child(6) div:first-child {
+    margin-top: 25px;
+    height: 20vh;
+}
+body div:nth-child(6) div:first-child img {
+    padding: 30px;
+}
+body div:nth-child(6) div:first-child img:last-of-type {
+    margin-left: 200px;
+}
+body div:nth-child(7) {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body div:nth-child(7) button {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(22, 88, 130);
+    color: white;
+    height: 60px;
+    border: none;
+    
+}
+body div:nth-child(7) button:last-of-type {
+    background-color: rgb(233, 144, 2);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    height: 12vh;
+    
+}
+.footer div:first-child {
+    width: 50vw;
+}
+.footer div ul {
+    margin-left: 0%;
+}
+.footer div ul li {
+    font-size: 1rem;
+    list-style-type: none;
+}
+.footer div p {
+    color: white;
+    font-size: 1rem;
+    margin-right: 20px;
+}
